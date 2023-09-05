@@ -1,0 +1,238 @@
+body,
+html {
+  margin: 0;
+  height: 100%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.bg-image {
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.background1 {
+  background-image: url(content/background1.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 20px;
+}
+
+.background2 {
+  background-image: url(content/background2.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 20px;
+}
+
+.background3 {
+  background-image: url(content/akif_background.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 20px;
+}
+
+.background4 {
+  background-image: url(content/tuna_background.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 20px;
+}
+
+.reem-kufi-font {
+  color: azure;
+  font-family: "Reem Kufi", sans-serif;
+}
+
+.lexend-font {
+  color: azure;
+  font-family: "Lexend", sans-serif;
+}
+
+img {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.welcome-to-realax {
+  text-align: center;
+  color: azure;
+  font-size: 70px;
+}
+
+.software-and-design {
+  text-align: center;
+  color: azure;
+  font-size: 40px;
+}
+
+.welcome-text {
+  margin: auto;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 350px;
+  height: 100vh;
+}
+
+.tuna {
+  width: 500px;
+  height: 800px;
+  display: inline;
+  margin-right: auto;
+  margin-left: auto;
+}
+.akif {
+  width: 500px;
+  height: 800px;
+  margin-right: auto;
+  margin-left: auto;
+  display: inline;
+}
+
+.container-about-page {
+  margin-bottom: 100px;
+  margin-left: 100px;
+  margin-right: 100px;
+  background-color: transparent;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.container {
+  margin: 100px;
+  background-color: transparent;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.box {
+  flex: 1;
+  text-align: center;
+  padding: 20px;
+}
+
+.text-name {
+  color: azure;
+  font-size: 100px;
+}
+
+.text-subject {
+  color: azure;
+  font-size: 50px;
+}
+
+.text-subject-little {
+  color: azure;
+  font-size: 30px;
+}
+
+.icons {
+  color: azure;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+  margin-left: 150px;
+  margin-right: 150px;
+  font-size: 40px;
+}
+
+a {
+  color: azure;
+}
+
+.center {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+  margin-left: 60px;
+  margin-right: 60px;
+}
+
+.about {
+  display: flex;
+  justify-content: space-between;
+}
+
+.info-box {
+  width: 360px;
+  height: 370px;
+}
+
+p {
+  margin-top: 6px;
+  font-size: 30px;
+}
+
+li {
+  text-align: center;
+  font-size: 30px;
+  list-style-type: none;
+  margin-bottom: 5px;
+}
+ul {
+  text-align: center;
+  margin-top: 6px;
+}
+
+.about > div {
+  flex: 1;
+}
+
+h1 {
+  font-size: 70px;
+  margin-bottom: 6px;
+}
+
+.en-alttaki-yer {
+  background-color: #15663c;
+  color: azure;
+  width: 100%;
+  height: 170px;
+  padding: 30px;
+}
+
+.copyright {
+  display: inline;
+  height: 100px;
+}
+
+.contact {
+  text-align: center;
+  font-size: 20px;
+  margin-left: 80px;
+  display: inline flex;
+  height: auto;
+  width: 40px;
+}
+
+.en-alttaki-ul {
+  font-size: 10px;
+}
+
+.en-alttaki-li {
+  font-size: 0px;
+}
+
+.bottom-links {
+  margin-left: 10px;
+}
+
+@media (max-width: 768px) {
+  .tuna,
+  .akif {
+    padding-right: 10px;
+  }
+}
